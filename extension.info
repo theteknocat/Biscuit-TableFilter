@@ -1,0 +1,4 @@
+name = "TableFilter"
+description = "Provides Javascript library for providing on-the-fly table row filtering"
+version = "1.0"
+is_global = 1
