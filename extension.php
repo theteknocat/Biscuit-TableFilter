@@ -9,14 +9,8 @@
  * @version 2.0
  **/
 class TableFilterJs extends AbstractExtension {
-	protected $_dependencies = array("Jquery");
 	function run() {
-		if ($this->check_dependencies()) {	// If the web 2.0 plugin is loaded only
-			$this->register_js('footer','table_filter.js');
-		}
-		else {
-			Console::log("                        TableFilterJs died because it can't live without Jquery");
-		}
+		$this->register_js('footer','table_filter.js');
 	}
 }
 ?>
